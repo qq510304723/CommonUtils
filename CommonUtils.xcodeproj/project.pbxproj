@@ -14,6 +14,7 @@
 		D8D9B2892292AC9F004284E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D9B2882292AC9F004284E4 /* Assets.xcassets */; };
 		D8D9B28C2292AC9F004284E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D9B28A2292AC9F004284E4 /* LaunchScreen.storyboard */; };
 		D8D9B28F2292AC9F004284E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B28E2292AC9F004284E4 /* main.m */; };
+		D8D9B2992292B6CA004284E4 /* CalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B2982292B6CA004284E4 /* CalloutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		D8D9B28B2292AC9F004284E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8D9B28D2292AC9F004284E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D9B28E2292AC9F004284E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D9B2972292B6CA004284E4 /* CalloutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalloutView.h; sourceTree = "<group>"; };
+		D8D9B2982292B6CA004284E4 /* CalloutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalloutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +53,6 @@
 				4FE1E4882C472AB047BDD0E0 /* Pods-CommonUtils.debug.xcconfig */,
 				A4AC4CBF97F5F7EF042B3B85 /* Pods-CommonUtils.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +85,7 @@
 		D8D9B27E2292AC9D004284E4 /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
+				D8D9B2952292B67C004284E4 /* UI */,
 				D8D9B27F2292AC9D004284E4 /* AppDelegate.h */,
 				D8D9B2802292AC9D004284E4 /* AppDelegate.m */,
 				D8D9B2822292AC9D004284E4 /* ViewController.h */,
@@ -94,6 +97,23 @@
 				D8D9B28E2292AC9F004284E4 /* main.m */,
 			);
 			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		D8D9B2952292B67C004284E4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D8D9B2962292B689004284E4 /* CalloutView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D8D9B2962292B689004284E4 /* CalloutView */ = {
+			isa = PBXGroup;
+			children = (
+				D8D9B2972292B6CA004284E4 /* CalloutView.h */,
+				D8D9B2982292B6CA004284E4 /* CalloutView.m */,
+			);
+			path = CalloutView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +215,7 @@
 				D8D9B2842292AC9D004284E4 /* ViewController.m in Sources */,
 				D8D9B28F2292AC9F004284E4 /* main.m in Sources */,
 				D8D9B2812292AC9D004284E4 /* AppDelegate.m in Sources */,
+				D8D9B2992292B6CA004284E4 /* CalloutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
