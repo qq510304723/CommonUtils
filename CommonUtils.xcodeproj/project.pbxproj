@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1DE1675C566A508B2734352 /* libPods-CommonUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D456EF85F81AAE9574006ED9 /* libPods-CommonUtils.a */; };
+		D893E27B2297FE9300B6E8D7 /* PDFReadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D893E27A2297FE9300B6E8D7 /* PDFReadHelper.m */; };
 		D8D9B2812292AC9D004284E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B2802292AC9D004284E4 /* AppDelegate.m */; };
 		D8D9B2842292AC9D004284E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B2832292AC9D004284E4 /* ViewController.m */; };
 		D8D9B2872292AC9D004284E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D9B2852292AC9D004284E4 /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 		4FE1E4882C472AB047BDD0E0 /* Pods-CommonUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonUtils.debug.xcconfig"; path = "Target Support Files/Pods-CommonUtils/Pods-CommonUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		A4AC4CBF97F5F7EF042B3B85 /* Pods-CommonUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonUtils.release.xcconfig"; path = "Target Support Files/Pods-CommonUtils/Pods-CommonUtils.release.xcconfig"; sourceTree = "<group>"; };
 		D456EF85F81AAE9574006ED9 /* libPods-CommonUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D893E2792297FE9300B6E8D7 /* PDFReadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFReadHelper.h; sourceTree = "<group>"; };
+		D893E27A2297FE9300B6E8D7 /* PDFReadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFReadHelper.m; sourceTree = "<group>"; };
 		D8D9B27C2292AC9D004284E4 /* CommonUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D9B27F2292AC9D004284E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8D9B2802292AC9D004284E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +67,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D893E2782297FE7C00B6E8D7 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				D893E2792297FE9300B6E8D7 /* PDFReadHelper.h */,
+				D893E27A2297FE9300B6E8D7 /* PDFReadHelper.m */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
 		D8D9B2732292AC9D004284E4 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +114,7 @@
 		D8D9B2952292B67C004284E4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D893E2782297FE7C00B6E8D7 /* PDF */,
 				D8D9B2962292B689004284E4 /* CalloutView */,
 			);
 			path = UI;
@@ -216,6 +229,7 @@
 				D8D9B28F2292AC9F004284E4 /* main.m in Sources */,
 				D8D9B2812292AC9D004284E4 /* AppDelegate.m in Sources */,
 				D8D9B2992292B6CA004284E4 /* CalloutView.m in Sources */,
+				D893E27B2297FE9300B6E8D7 /* PDFReadHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
