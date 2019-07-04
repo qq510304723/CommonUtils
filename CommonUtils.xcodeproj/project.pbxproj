@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B1DE1675C566A508B2734352 /* libPods-CommonUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D456EF85F81AAE9574006ED9 /* libPods-CommonUtils.a */; };
+		D830D6BA22CEFD3700684204 /* WDSignatureCanvas22.m in Sources */ = {isa = PBXBuildFile; fileRef = D830D6B922CEFD3700684204 /* WDSignatureCanvas22.m */; };
+		D842418D22D2D33B006FC56B /* WDSignatureCanvas33.m in Sources */ = {isa = PBXBuildFile; fileRef = D842418C22D2D33B006FC56B /* WDSignatureCanvas33.m */; };
+		D842419022D2D556006FC56B /* WDSignatureCanvas44.m in Sources */ = {isa = PBXBuildFile; fileRef = D842418F22D2D556006FC56B /* WDSignatureCanvas44.m */; };
+		D842419722D32A68006FC56B /* WDSignatureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D842419622D32A68006FC56B /* WDSignatureHelper.m */; };
+		D846322822C60AC300A9747F /* WDSignatureCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D846322722C60AC300A9747F /* WDSignatureCanvas.m */; };
 		D893E27B2297FE9300B6E8D7 /* PDFReadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D893E27A2297FE9300B6E8D7 /* PDFReadHelper.m */; };
+		D8A4745422DC7F0D00F7D8B3 /* WDSignaturePenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4745022DC7F0D00F7D8B3 /* WDSignaturePenConfig.m */; };
 		D8D9B2812292AC9D004284E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B2802292AC9D004284E4 /* AppDelegate.m */; };
 		D8D9B2842292AC9D004284E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B2832292AC9D004284E4 /* ViewController.m */; };
 		D8D9B2872292AC9D004284E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D9B2852292AC9D004284E4 /* Main.storyboard */; };
@@ -22,8 +28,20 @@
 		4FE1E4882C472AB047BDD0E0 /* Pods-CommonUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonUtils.debug.xcconfig"; path = "Target Support Files/Pods-CommonUtils/Pods-CommonUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		A4AC4CBF97F5F7EF042B3B85 /* Pods-CommonUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonUtils.release.xcconfig"; path = "Target Support Files/Pods-CommonUtils/Pods-CommonUtils.release.xcconfig"; sourceTree = "<group>"; };
 		D456EF85F81AAE9574006ED9 /* libPods-CommonUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830D6B822CEFD3700684204 /* WDSignatureCanvas22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureCanvas22.h; sourceTree = "<group>"; };
+		D830D6B922CEFD3700684204 /* WDSignatureCanvas22.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSignatureCanvas22.m; sourceTree = "<group>"; };
+		D842418B22D2D33B006FC56B /* WDSignatureCanvas33.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureCanvas33.h; sourceTree = "<group>"; };
+		D842418C22D2D33B006FC56B /* WDSignatureCanvas33.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSignatureCanvas33.m; sourceTree = "<group>"; };
+		D842418E22D2D556006FC56B /* WDSignatureCanvas44.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureCanvas44.h; sourceTree = "<group>"; };
+		D842418F22D2D556006FC56B /* WDSignatureCanvas44.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSignatureCanvas44.m; sourceTree = "<group>"; };
+		D842419522D32A68006FC56B /* WDSignatureHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureHelper.h; sourceTree = "<group>"; };
+		D842419622D32A68006FC56B /* WDSignatureHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSignatureHelper.m; sourceTree = "<group>"; };
+		D846322622C60AC300A9747F /* WDSignatureCanvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureCanvas.h; sourceTree = "<group>"; };
+		D846322722C60AC300A9747F /* WDSignatureCanvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSignatureCanvas.m; sourceTree = "<group>"; };
 		D893E2792297FE9300B6E8D7 /* PDFReadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFReadHelper.h; sourceTree = "<group>"; };
 		D893E27A2297FE9300B6E8D7 /* PDFReadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFReadHelper.m; sourceTree = "<group>"; };
+		D8A4745022DC7F0D00F7D8B3 /* WDSignaturePenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSignaturePenConfig.m; sourceTree = "<group>"; };
+		D8A4745222DC7F0D00F7D8B3 /* WDSignaturePenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSignaturePenConfig.h; sourceTree = "<group>"; };
 		D8D9B27C2292AC9D004284E4 /* CommonUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D9B27F2292AC9D004284E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8D9B2802292AC9D004284E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +83,25 @@
 				D456EF85F81AAE9574006ED9 /* libPods-CommonUtils.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D846322522C5C84900A9747F /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4745222DC7F0D00F7D8B3 /* WDSignaturePenConfig.h */,
+				D8A4745022DC7F0D00F7D8B3 /* WDSignaturePenConfig.m */,
+				D846322622C60AC300A9747F /* WDSignatureCanvas.h */,
+				D846322722C60AC300A9747F /* WDSignatureCanvas.m */,
+				D830D6B822CEFD3700684204 /* WDSignatureCanvas22.h */,
+				D830D6B922CEFD3700684204 /* WDSignatureCanvas22.m */,
+				D842418B22D2D33B006FC56B /* WDSignatureCanvas33.h */,
+				D842418C22D2D33B006FC56B /* WDSignatureCanvas33.m */,
+				D842418E22D2D556006FC56B /* WDSignatureCanvas44.h */,
+				D842418F22D2D556006FC56B /* WDSignatureCanvas44.m */,
+				D842419522D32A68006FC56B /* WDSignatureHelper.h */,
+				D842419622D32A68006FC56B /* WDSignatureHelper.m */,
+			);
+			path = Signature;
 			sourceTree = "<group>";
 		};
 		D893E2782297FE7C00B6E8D7 /* PDF */ = {
@@ -114,6 +151,7 @@
 		D8D9B2952292B67C004284E4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D846322522C5C84900A9747F /* Signature */,
 				D893E2782297FE7C00B6E8D7 /* PDF */,
 				D8D9B2962292B689004284E4 /* CalloutView */,
 			);
@@ -226,10 +264,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D9B2842292AC9D004284E4 /* ViewController.m in Sources */,
+				D830D6BA22CEFD3700684204 /* WDSignatureCanvas22.m in Sources */,
 				D8D9B28F2292AC9F004284E4 /* main.m in Sources */,
+				D8A4745422DC7F0D00F7D8B3 /* WDSignaturePenConfig.m in Sources */,
 				D8D9B2812292AC9D004284E4 /* AppDelegate.m in Sources */,
 				D8D9B2992292B6CA004284E4 /* CalloutView.m in Sources */,
+				D842419722D32A68006FC56B /* WDSignatureHelper.m in Sources */,
+				D842418D22D2D33B006FC56B /* WDSignatureCanvas33.m in Sources */,
+				D842419022D2D556006FC56B /* WDSignatureCanvas44.m in Sources */,
 				D893E27B2297FE9300B6E8D7 /* PDFReadHelper.m in Sources */,
+				D846322822C60AC300A9747F /* WDSignatureCanvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 235K4WCR8Q;
 				INFOPLIST_FILE = CommonUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 235K4WCR8Q;
 				INFOPLIST_FILE = CommonUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
