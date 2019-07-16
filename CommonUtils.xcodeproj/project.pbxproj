@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1DE1675C566A508B2734352 /* libPods-CommonUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D456EF85F81AAE9574006ED9 /* libPods-CommonUtils.a */; };
+		D81E289622DD730300BAA33F /* WDSignatureCanvasController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81E289522DD730300BAA33F /* WDSignatureCanvasController.m */; };
 		D830D6BA22CEFD3700684204 /* WDSignatureCanvas22.m in Sources */ = {isa = PBXBuildFile; fileRef = D830D6B922CEFD3700684204 /* WDSignatureCanvas22.m */; };
 		D842418D22D2D33B006FC56B /* WDSignatureCanvas33.m in Sources */ = {isa = PBXBuildFile; fileRef = D842418C22D2D33B006FC56B /* WDSignatureCanvas33.m */; };
 		D842419022D2D556006FC56B /* WDSignatureCanvas44.m in Sources */ = {isa = PBXBuildFile; fileRef = D842418F22D2D556006FC56B /* WDSignatureCanvas44.m */; };
@@ -28,6 +29,8 @@
 		4FE1E4882C472AB047BDD0E0 /* Pods-CommonUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonUtils.debug.xcconfig"; path = "Target Support Files/Pods-CommonUtils/Pods-CommonUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		A4AC4CBF97F5F7EF042B3B85 /* Pods-CommonUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonUtils.release.xcconfig"; path = "Target Support Files/Pods-CommonUtils/Pods-CommonUtils.release.xcconfig"; sourceTree = "<group>"; };
 		D456EF85F81AAE9574006ED9 /* libPods-CommonUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81E289422DD730300BAA33F /* WDSignatureCanvasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureCanvasController.h; sourceTree = "<group>"; };
+		D81E289522DD730300BAA33F /* WDSignatureCanvasController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSignatureCanvasController.m; sourceTree = "<group>"; };
 		D830D6B822CEFD3700684204 /* WDSignatureCanvas22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureCanvas22.h; sourceTree = "<group>"; };
 		D830D6B922CEFD3700684204 /* WDSignatureCanvas22.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSignatureCanvas22.m; sourceTree = "<group>"; };
 		D842418B22D2D33B006FC56B /* WDSignatureCanvas33.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSignatureCanvas33.h; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				D842418F22D2D556006FC56B /* WDSignatureCanvas44.m */,
 				D842419522D32A68006FC56B /* WDSignatureHelper.h */,
 				D842419622D32A68006FC56B /* WDSignatureHelper.m */,
+				D81E289422DD730300BAA33F /* WDSignatureCanvasController.h */,
+				D81E289522DD730300BAA33F /* WDSignatureCanvasController.m */,
 			);
 			path = Signature;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D9B2842292AC9D004284E4 /* ViewController.m in Sources */,
+				D81E289622DD730300BAA33F /* WDSignatureCanvasController.m in Sources */,
 				D830D6BA22CEFD3700684204 /* WDSignatureCanvas22.m in Sources */,
 				D8D9B28F2292AC9F004284E4 /* main.m in Sources */,
 				D8A4745422DC7F0D00F7D8B3 /* WDSignaturePenConfig.m in Sources */,
