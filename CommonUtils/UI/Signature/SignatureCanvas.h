@@ -7,26 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WDSignaturePenConfig.h"
+#import "SignaturePenConfig.h"
 
-@class WDSignatureCanvas;
+@class SignatureCanvas;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol WDSignatureCanvasDelegate <NSObject>
 
 @optional
-- (void)canvasViewDidBeganTouch:(WDSignatureCanvas *)canvasView;
-- (void)canvasViewDidEndTouch:(WDSignatureCanvas *)canvasView;
-- (void)canvasViewDidBacked:(WDSignatureCanvas *)canvasView;
+- (void)canvasViewDidBeganTouch:(SignatureCanvas *)canvasView;
+- (void)canvasViewDidEndTouch:(SignatureCanvas *)canvasView;
+- (void)canvasViewDidBacked:(SignatureCanvas *)canvasView;
 
 @end
 
-@interface WDSignatureCanvas : UIView
+@interface SignatureCanvas : UIView
 
 @property (nonatomic, weak) id<WDSignatureCanvasDelegate> delegate;
 
-@property (nonatomic, strong) WDSignaturePenConfig *penConfig;
+@property (nonatomic, strong) SignaturePenConfig *penConfig;
 
 @property (nonatomic, strong) UIImage *backgroundImage;
 

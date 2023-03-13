@@ -7,8 +7,8 @@
 //
 //  学习网址: https://www.jianshu.com/p/f9b1162e62cf
 
-#import "WDSignatureCanvas22.h"
-#import "WDSignatureHelper.h"
+#import "SignatureCanvas22.h"
+#import "SignatureHelper.h"
 
 #define             STROKE_WIDTH_MIN 0.004 // Stroke width determined by touch velocity
 #define             STROKE_WIDTH_MAX 0.030
@@ -23,7 +23,7 @@
 //这个控制笔锋的控制值
 #define  DIS_VEL_CAL_FACTOR 0.02f
 
-@interface WDSignatureCanvas22 ()
+@interface SignatureCanvas22 ()
 
 @property (nonatomic, strong) NSMutableArray *allLayers;
 
@@ -37,7 +37,7 @@
 
 @end
 
-@implementation WDSignatureCanvas22
+@implementation SignatureCanvas22
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

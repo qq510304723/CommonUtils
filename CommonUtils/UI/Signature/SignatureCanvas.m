@@ -6,8 +6,8 @@
 //  Copyright © 2019 ShineMo Technology Co., Ltd. All rights reserved.
 //
 
-#import "WDSignatureCanvas.h"
-#import "WDSignatureHelper.h"
+#import "SignatureCanvas.h"
+#import "SignatureHelper.h"
 
 #define VEL_MAX 1.2f  // 最大速度
 #define VEL_MIN 0.05f  // 最小速度
@@ -45,7 +45,7 @@ static inline CGRect GetFixedFrame(CGRect frame) {
     return (CGRect){(int)frame.origin.x, (int)frame.origin.y, (int)frame.size.width, (int)frame.size.height};
 }
 
-@interface WDSignatureCanvas ()
+@interface SignatureCanvas ()
 
 @property (nonatomic, strong) UIImageView *bgImageView;
 @property (nonatomic, strong) UIImageView *canvasImageView;
@@ -60,7 +60,7 @@ static inline CGRect GetFixedFrame(CGRect frame) {
 
 @end
 
-@implementation WDSignatureCanvas
+@implementation SignatureCanvas
 @synthesize drawImageCachedPath = _drawImageCachedPath;
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -96,7 +96,7 @@ static inline CGRect GetFixedFrame(CGRect frame) {
     _drawImageCachedPath = cachedPath.copy;
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        [WDSignatureHelper ensureDirExistAtPath:cachedPath];
+        [SignatureHelper ensureDirExistAtPath:cachedPath];
         NSFileManager *fileManager = [NSFileManager defaultManager];
         NSArray *picPaths = [fileManager contentsOfDirectoryAtPath:cachedPath error:nil];
         
@@ -123,7 +123,7 @@ static inline CGRect GetFixedFrame(CGRect frame) {
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSString *picPath = [self.drawImagePathArray lastObject];
-        [WDSignatureHelper removeFile:picPath];
+        [SignatureHelper removeFile:picPath];
         [self.drawImagePathArray removeLastObject];
         
         picPath = [self.drawImagePathArray lastObject];
@@ -145,7 +145,7 @@ static inline CGRect GetFixedFrame(CGRect frame) {
     }
     
     [self.drawImagePathArray enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [WDSignatureHelper removeFile:obj];
+        [SignatureHelper removeFile:obj];
     }];
     [self.drawImagePathArray removeAllObjects];
     self.canvasImageView.image = nil;
@@ -378,9 +378,9 @@ static inline CGRect GetFixedFrame(CGRect frame) {
 
 #pragma mark - Getters
 
-- (WDSignaturePenConfig *)penConfig {
+- (SignaturePenConfig *)penConfig {
     if (!_penConfig) {
-        _penConfig = [[WDSignaturePenConfig alloc] init];
+        _penConfig = [[SignaturePenConfig alloc] init];
         _penConfig.lineWidth = 2;
         _penConfig.lineColor = [UIColor redColor];
         _penConfig.isEraser = NO;

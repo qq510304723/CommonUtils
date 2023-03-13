@@ -6,7 +6,7 @@
 //  Copyright © 2019 lihuaguang. All rights reserved.
 //
 
-#import "WDSignatureHelper.h"
+#import "SignatureHelper.h"
 
 // 二阶贝塞尔曲线函数取点 pow(x, y)是以x为底y次方
 double getPointValue(double start, double end, double control, double t) {
@@ -26,7 +26,7 @@ double getMidValue(double x1, double x2) {
     return (x1 + x2) / 2;
 }
 
-@implementation WDSignatureHelper
+@implementation SignatureHelper
 
 + (void)ensureDirExistAtPath:(NSString *)dirPath {
     NSFileManager *fm = [NSFileManager defaultManager];

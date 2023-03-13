@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WDSignatureCanvas44 : UIView
+@interface SignatureCanvas44 : UIView
 
 // 撤销
 - (void)undo;

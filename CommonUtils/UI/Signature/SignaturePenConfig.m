@@ -6,8 +6,8 @@
 //  Copyright © 2019 ShineMo Technology Co., Ltd. All rights reserved.
 //
 
-#import "WDSignaturePenConfig.h"
+#import "SignaturePenConfig.h"
 
-@implementation WDSignaturePenConfig
+@implementation SignaturePenConfig
 
 @end

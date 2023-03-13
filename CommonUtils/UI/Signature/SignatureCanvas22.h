@@ -1,8 +1,8 @@
 //
-//  WDSignatureCanvas33.h
+//  WDSignatureCanvas22.h
 //  CommonUtils
 //
-//  Created by lihuaguang on 2019/7/8.
+//  Created by lihuaguang on 2019/6/28.
 //  Copyright © 2019 lihuaguang. All rights reserved.
 //
 
@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WDSignatureCanvas33 : UIView
+@interface SignatureCanvas22 : UIView
+
+- (instancetype)initWithFrame:(CGRect)frame;
 
 // 撤销
 - (void)undo;

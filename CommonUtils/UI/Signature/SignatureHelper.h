@@ -20,7 +20,7 @@ double getTriangleCoord(double x1, double y1, double x2, double y2);
 
 double getMidValue(double x1, double x2);
 
-@interface WDSignatureHelper : NSObject
+@interface SignatureHelper : NSObject
 
 + (void)ensureDirExistAtPath:(NSString *)dirPath;
 

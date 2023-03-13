@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WDSignaturePenConfig : NSObject
+@interface SignaturePenConfig : NSObject
 
 //画笔颜色
 @property (nonatomic, strong) UIColor *lineColor;

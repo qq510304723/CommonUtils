@@ -6,19 +6,19 @@
 //  Copyright © 2019 lihuaguang. All rights reserved.
 //
 
-#import "WDSignatureCanvasController.h"
-#import "WDSignatureCanvas.h"
-#import "WDSignatureCanvas22.h"
-#import "WDSignatureCanvas33.h"
-#import "WDSignatureCanvas44.h"
+#import "SignatureCanvasController.h"
+#import "SignatureCanvas.h"
+#import "SignatureCanvas22.h"
+#import "SignatureCanvas33.h"
+#import "SignatureCanvas44.h"
 
-@interface WDSignatureCanvasController ()
+@interface SignatureCanvasController ()
 
-@property (nonatomic, strong) WDSignatureCanvas *canvasView;
+@property (nonatomic, strong) SignatureCanvas *canvasView;
 
 @end
 
-@implementation WDSignatureCanvasController
+@implementation SignatureCanvasController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,7 +26,7 @@
     
     CGRect frame = (CGRect){20, 100, self.view.bounds.size.width - 40, 500};
     
-    self.canvasView = [[WDSignatureCanvas alloc] initWithFrame:frame];
+    self.canvasView = [[SignatureCanvas alloc] initWithFrame:frame];
     self.canvasView.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.canvasView];
     

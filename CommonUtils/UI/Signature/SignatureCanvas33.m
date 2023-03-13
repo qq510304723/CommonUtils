@@ -6,14 +6,14 @@
 //  Copyright © 2019 lihuaguang. All rights reserved.
 //
 
-#import "WDSignatureCanvas33.h"
-#import "WDSignatureHelper.h"
+#import "SignatureCanvas33.h"
+#import "SignatureHelper.h"
 
 // 点距设定到大于笔迹的尺寸，甚至可以画出类似虚线的效果
 #define LINE_POINT_SIZE 3.0f  // 笔迹的尺寸
 #define LINE_POINT_DIS 2.0f  // 点距
 
-@interface WDSignatureCanvas33 ()
+@interface SignatureCanvas33 ()
 
 @property (nonatomic, assign) CGPoint lastPoint;
 @property (nonatomic, assign) CGFloat lastForce;
@@ -21,7 +21,7 @@
 
 @end
 
-@implementation WDSignatureCanvas33
+@implementation SignatureCanvas33
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

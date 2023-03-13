@@ -6,10 +6,10 @@
 //  Copyright © 2019 lihuaguang. All rights reserved.
 //
 
-#import "WDSignatureCanvas44.h"
-#import "WDSignatureHelper.h"
+#import "SignatureCanvas44.h"
+#import "SignatureHelper.h"
 
-@implementation WDSignatureCanvas44 {
+@implementation SignatureCanvas44 {
     CAShapeLayer *_shapeLayer;
     NSMutableArray *_allPoints;
 }
